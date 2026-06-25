@@ -57,103 +57,11 @@
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     }
 
-    .status {
-      height: 44px;
-      padding: 12px 20px 0;
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      color: #000;
-      font-size: 14px;
-      font-weight: 600;
-      letter-spacing: -0.22px;
-      line-height: 20px;
-    }
-
-    .system {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      padding-top: 2px;
-    }
-
-    .signal {
-      width: 18px;
-      height: 14px;
-      display: grid;
-      grid-template-columns: repeat(4, 3px);
-      align-items: end;
-      gap: 2px;
-    }
-
-    .signal i {
-      width: 3px;
-      background: #000;
-      border-radius: 1px;
-    }
-
-    .signal i:nth-child(1) { height: 5px; }
-    .signal i:nth-child(2) { height: 8px; }
-    .signal i:nth-child(3) { height: 11px; }
-    .signal i:nth-child(4) { height: 14px; }
-
-    .wifi {
-      width: 16px;
-      height: 12px;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .wifi::before,
-    .wifi::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      border: 2px solid #000;
-      border-color: #000 transparent transparent transparent;
-      border-radius: 50%;
-      transform: translateX(-50%);
-    }
-
-    .wifi::before {
-      width: 18px;
-      height: 18px;
-      top: 2px;
-    }
-
-    .wifi::after {
-      width: 10px;
-      height: 10px;
-      top: 7px;
-    }
-
-    .battery {
-      width: 26px;
-      height: 13px;
-      border: 1.8px solid #000;
-      border-radius: 3px;
-      position: relative;
-      padding: 2px;
-    }
-
-    .battery::before {
-      content: "";
-      position: absolute;
-      right: -4px;
-      top: 4px;
-      width: 2px;
-      height: 5px;
-      border-radius: 1px;
-      background: #000;
-    }
-
-    .battery::after {
-      content: "";
+    .status-svg {
       display: block;
-      height: 100%;
-      width: 18px;
-      border-radius: 1px;
-      background: #000;
+      width: 100%;
+      height: 44px;
+      object-fit: cover;
     }
 
     .nav {
@@ -648,14 +556,7 @@
 <body>
   <div class="phone">
     <header>
-      <div class="status">
-        <div>1:20</div>
-        <div class="system" aria-hidden="true">
-          <span class="signal"><i></i><i></i><i></i><i></i></span>
-          <span class="wifi"></span>
-          <span class="battery"></span>
-        </div>
-      </div>
+      <img class="status-svg" src="assets/status-bar.svg" alt="手机状态栏">
       <div class="nav">
         <button class="back" type="button" aria-label="返回"></button>
         <div class="title">满意度调研</div>
