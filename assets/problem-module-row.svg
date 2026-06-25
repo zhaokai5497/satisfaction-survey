@@ -1,0 +1,30 @@
+<svg width="376px" height="48px" viewBox="0 0 376 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-赛事评测备份-2" transform="translate(-949.000000, -774.000000)">
+            <g id="编组-8备份-2" transform="translate(949.500000, 538.000000)">
+                <g id="编组-54" transform="translate(0.000000, 88.000000)">
+                    <g id="输入框" transform="translate(0.000000, 148.000000)">
+                        <polygon id="Background" fill="#FFFFFF" points="0 8.9928065e-15 0 48 375 48 375 8.9928065e-15"></polygon>
+                        <g id="RightOutlined" transform="translate(345.000000, 15.000000)" fill="#CCCCCC">
+                            <rect id="矩形" opacity="0" x="0" y="0" width="18" height="18"></rect>
+                            <path d="M6.53757823,1.93109632 L13.3412768,8.49797144 L13.3412768,8.49797144 C13.5489294,8.70471959 13.5611443,9.0323683 13.3779214,9.25334004 L13.3412768,9.29346657 L6.53798341,16.0667338 C6.50050188,16.1040499 6.44976521,16.125 6.39687517,16.125 L5.36608367,16.125 C5.25562672,16.125 5.16608367,16.0354569 5.16608367,15.925 C5.16608367,15.8718058 5.1872748,15.820803 5.22497063,15.783271 L12.1200725,8.91813514 L12.1200725,8.91813514 L5.23460585,2.2183408 C5.15544091,2.14131061 5.15371036,2.01468944 5.23074055,1.9355245 C5.26839271,1.89682888 5.32009027,1.875 5.37408135,1.875 L6.39868356,1.875 C6.45050051,1.875 6.50029497,1.89511082 6.53757823,1.93109632 Z" id="right" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="内容" transform="translate(16.000000, 12.000000)" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal">
+                            <text id="标题文字" line-spacing="24" fill="#232A33">
+                                <tspan x="0" y="17">问题模块</tspan>
+                            </text>
+                            <text id="内容文字备份" fill="#000000">
+                                <tspan x="89" y="18">地勤任务中心</tspan>
+                            </text>
+                        </g>
+                        <g id="编组" transform="translate(0.000000, 47.500000)" stroke="#EEEEEE" stroke-width="0.5">
+                            <g id="底部分割线">
+                                <path d="" id="line"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
